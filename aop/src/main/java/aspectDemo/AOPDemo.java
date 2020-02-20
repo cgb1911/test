@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class AOPDemo {
 	@Around("execution(* aspectDemo..*.*(..))")
 	 public Object arountObject(ProceedingJoinPoint jp) {
-	 System.out.println("Ö´ÐÐÇÐÃæ");
+	 System.out.println("Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	  Object obj =null;
 	  String methodName=null;
 	   try {
@@ -32,9 +32,9 @@ public class AOPDemo {
 	    e.printStackTrace();
 	    throw new RuntimeException(e);
 	   }
-	   System.out.println("·½·¨µÄÀàÐÍ:"+clazz);
-	   System.out.println("·½·¨µÄÃû³Æ:"+methodName);
+	   System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:"+clazz);
+	   System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:"+methodName);
 	  return obj;
 	 }
-	
+	//æµ‹è¯•1
 }
