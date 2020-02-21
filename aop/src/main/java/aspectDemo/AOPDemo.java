@@ -37,4 +37,5 @@ public class AOPDemo {
 	  return obj;
 	 }
 	//测试1
+	//测试3
 }
